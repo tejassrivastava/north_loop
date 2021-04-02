@@ -22,6 +22,8 @@ Caching is achieved using [apiCache](https://github.com/kwhitley/apicache).
 
 Cache Duration Can be managed from .env file.
 
+**Current Cache Duration Is 5 Minutes**
+
 ## Installation
 
 Use the npm package manager to install the project dependencies
