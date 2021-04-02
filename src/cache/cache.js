@@ -4,8 +4,7 @@ const cacheWrapper = () => {
 
     let cache = apicache.middleware;
     const onlyStatus200 = (req, res) => {
-      console.log("res.statusCode", res.statusCode);
-    
+          
       return res.statusCode === 200 ? true : false;
     };
     
